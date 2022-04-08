@@ -14,12 +14,6 @@ public class MainMenuManager : MonoBehaviour
         isAboutPanelActive = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void moveToScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);

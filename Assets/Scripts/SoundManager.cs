@@ -16,24 +16,13 @@ public class SoundManager : MonoBehaviour
     {
         if (instance != null)
         {
-            //Destroy(gameOver);
+            
         }
         else
         {
             instance = this;
         }
         audio = GetComponent<AudioSource>();
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public void UIClickSfx()
